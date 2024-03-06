@@ -5,10 +5,14 @@
 
 <h1>Comandos Git</h1>
 
-1) git pull  
-2) git add .  --> agregar archivos
-3) git commit -m "dejar comentario del commit"
-4) git status  -> consultar estado
-5) git push  -> enviar datos al repositorio remoto
-6) git log --oneline
-7) git restore --source xxxxxx name archivo a restaurar
+1)git clone
+2) git pull  
+3) git add .  --> agregar archivos
+4) git commit -m "dejar comentario del commit"
+5) git status  -> consultar estado
+6) git push  -> enviar datos al repositorio remoto
+7) git log --oneline
+8) git restore --source xxxxxx name archivo a restaurar
+9) git diff index.html
+10) git branch -> mostrar ramas
+11) git checkout -b nombre de la rama
