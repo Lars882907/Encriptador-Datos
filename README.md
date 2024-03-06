@@ -17,3 +17,4 @@
 10) git branch -> mostrar ramas
 11) git checkout -b nombre de la rama
 12) git switch main ->regresar a la rama main
+13) git push origin desarrollo
