@@ -10,4 +10,5 @@
 3) git commit -m "dejar comentario del commit"
 4) git status  -> consultar estado
 5) git push  -> enviar datos al repositorio remoto
-6) 
+6) git log --oneline
+7) git restore --source xxxxxx name archivo a restaurar
