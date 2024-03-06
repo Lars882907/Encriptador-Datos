@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section>
+        <!-- campo de texto 1 -->
+        <textarea
+          id="texto-ecriptado"
+          class="campo-texto"
+          placeholder="Texto a Encriptar"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <!-- botones -->
+        <br /><br />
+
+        <div class="btn">
+          <button class="btnEncriptar" onclick="btnEncriptar()">
+            Encriptar
+          </button>
+          <button class="btnDesEncriptar" onclick="btnDesencriptar()">
+            DesEncriptar
+          </button>
+        </div>
+      </section>
+      <!--  campo texto 2 -->
+      <br />
+      <section class="campo-mensaje">
+        <textarea
+          id="campo-mensaje"
+          class="mensaje"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </section>
+    </main>
+    <script src="funciones.js"></script>
+  </body>
+</html>
 
